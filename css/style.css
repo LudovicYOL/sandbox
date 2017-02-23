@@ -1,0 +1,61 @@
+body{
+	background: #1f1f1f;
+	color:white;
+}
+
+#particles-js{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+#header{
+	padding:100px 0px;
+}
+
+.value-prop{
+	text-align:center;
+}
+
+.one-third.column{
+	width: 28.667%;
+	background:black;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+.project{
+	margin-top:20px;
+	box-shadow:1px 1px 5px black;
+	height:250px;
+}
+
+.project-content{
+	background: black;
+	padding: 20px;
+	opacity:0;
+	cursor:pointer;
+	height:210px;
+	-webkit-transition: all 0.2s; /* Safari */
+    transition: all 0.2s;
+}
+
+.project-content:hover{
+	opacity:1;
+}
+
+.project-content a{
+	text-decoration:none;
+	color:white;
+}
+
+.project-content h4 button{
+	float: right;
+	color:white;
+}
+
+.project-content .git{
+	float:right;
+}

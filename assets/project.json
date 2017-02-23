@@ -1,0 +1,16 @@
+[
+	{
+		"name":"Shuriken",
+		"description":"First project of Nicolas. A little game where you control a ninja who have to dodge enemies shurikens..",
+		"link":"http://ludovicyol.fr/project/snake/snake.html",
+		"image":"shuriken.png",
+		"git":"http://ludovicyol.fr/project/snake/snake.html"
+	},
+	{
+		"name":"Snake",
+		"description":"This is a one player game of snake. With score, speed and bonus !",
+		"link":"http://ludovicyol.fr/project/snake/snake.html",
+		"image":"snake.png",
+		"git":"http://ludovicyol.fr/project/snake/snake.html"
+	}
+]
