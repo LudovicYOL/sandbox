@@ -32,21 +32,21 @@
 		</div>
 		<div class="four columns value-prop">
 		  <img class="value-img" src="img/header3.png"><br/>
-		  Sometimes, it can be really crappy.. but we hope you'll enjoy your visit ! ;)
+		  Sometimes, it can be really crappy.. but still funny ! Hope you'll enjoy your visit ! ;)
 		</div>
 	  </div>
 	</section>
-  
- 
+
+
   </div>
-  
- 
+
+
 <script src="js/particles.min.js"></script>
 <script>
 	particlesJS.load('particles-js', './assets/particles.json', function() {
 	  console.log('callback - particles.js config loaded');
 	});
-	
+
 	window.onload = init;
 
 	function init(){
@@ -71,19 +71,19 @@
 	function openurl(url){
 		window.open(url, '_blank');
 	}
-	
-	function loadJSON(jsonPath, callback) {   
+
+	function loadJSON(jsonPath, callback) {
 		var xobj = new XMLHttpRequest();
 			xobj.overrideMimeType("application/json");
-		xobj.open('GET', jsonPath, true); 
+		xobj.open('GET', jsonPath, true);
 		xobj.onreadystatechange = function () {
 			  if (xobj.readyState == 4 && xobj.status == "200") {
 				callback(xobj.responseText);
 			  }
 		};
-		xobj.send(null);  
+		xobj.send(null);
 	 }
-	
+
 </script>
 </body>
 </html>
